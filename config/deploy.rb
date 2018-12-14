@@ -41,4 +41,4 @@ set :ssh_options, {
 }
 
 # set :linked_dirs, fetch(:linked_dirs, []).push("log", "tmp/pids", "tmp/sockets", "tmp/cache", "public/uploads")
-append :linked_files, "database.yml"
+append :linked_files, "config/database.yml"
